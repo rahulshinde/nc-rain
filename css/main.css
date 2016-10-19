@@ -1,0 +1,38 @@
+body {
+  background-color: rgb(218, 202, 165);
+  cursor: url('../img/cursor_water-01.png'), auto;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.container img {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+}
+
+.container img#two {
+  display: none;
+}
+
+.switch {
+  position: fixed;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  height: 463px;
+  z-index: 1000;
+}
+
+video {
+  position: fixed;
+  top: 30%;
+  right: 15%;
+  width: 400px;
+}
